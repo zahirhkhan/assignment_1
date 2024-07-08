@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the card both horizontally and vertically */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    }
+    
+
+/* Profile card styling */
+.profile-card {
+    width: 280px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/* Profile picture styling */
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+/* Name styling */
+.name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+/* Occupation styling */
+.occupation {
+    font-size: 18px;
+    color: #4b4848;
+    margin-bottom: 10px;
+}
+
+/* Description styling */
+.description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Contact information styling */
+.contact {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0px;
+}
